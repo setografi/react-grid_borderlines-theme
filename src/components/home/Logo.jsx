@@ -44,6 +44,32 @@ function Logo() {
       <div className="h-40 grid grid-flow-col px-32 border-b border-slate-300 border-dashed">
         <div className="border-x border-slate-300 border-dashed"></div>
       </div>
+
+      <div className="grid grid-flow-row px-32 border-b border-slate-300 border-dashed">
+        <div className="border-x border-b border-slate-300 border-dashed">
+          <h2 className="text-4xl w-80 font-semibold leading-snug">
+            Lorem ipsum dolor sit amet.
+          </h2>
+        </div>
+
+        <div className="grid grid-cols-2 border-x border-slate-300 border-dashed">
+          <div className="pt-12 w-80">
+            <p className="text-base">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorem
+              dignissimos expedita, eligendi ipsum quos.
+            </p>
+          </div>
+
+          <div className="border-l border-slate-300 border-dashed pt-12 w-80">
+            <p className="text-base">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorem
+              dignissimos expedita, eligendi ipsum quos.
+            </p>
+          </div>
+        </div>
+
+        <div className="border-x border-t h-[5.8rem] border-slate-300 border-dashed"></div>
+      </div>
     </section>
   );
 }
