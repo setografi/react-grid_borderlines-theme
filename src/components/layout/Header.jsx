@@ -2,7 +2,7 @@ import React from "react";
 
 function Header() {
   return (
-    <header className="fixed w-full mx-auto px-32">
+    <header className="fixed w-full mx-auto px-32 z-50">
       <div className="bg-white flex flex-row justify-between py-4 border-x border-slate-300 border-dashed">
         <div className="flex flex-row justify-center items-center">
           <a href="/">

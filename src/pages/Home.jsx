@@ -6,6 +6,7 @@ import Logo from "../components/home/Logo";
 import Tabs from "../components/home/Tabs";
 import Testimonial from "../components/home/Testimonial";
 import Cta from "../components/home/Cta";
+import Footer from "../components/layout/Footer";
 
 function Home() {
   return (
@@ -17,6 +18,7 @@ function Home() {
       <Tabs />
       <Testimonial />
       <Cta />
+      <Footer />
     </>
   );
 }
