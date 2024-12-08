@@ -6,7 +6,7 @@ function Tabs() {
     <section className="w-full grid grid-flow-row mx-auto">
       <div className="px-32 border-t border-slate-300 border-dashed">
         <div className="border-x border-slate-300 border-dashed">
-          <div className="grid grid-cols-2 border border-slate-200 rounded-lg p-10 group hover:shadow-2xl overflow-hidden duration-300 transition-all ease-in-out">
+          <div className="grid grid-cols-2 border border-slate-200 rounded-lg p-10 group hover:shadow-xl overflow-hidden duration-300 transition-all ">
             <div className="flex flex-col justify-between items-start">
               <div className="flex flex-col gap-6">
                 <h1 className="text-3xl font-semibold leading-snug">
