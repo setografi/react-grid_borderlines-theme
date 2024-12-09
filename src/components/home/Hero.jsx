@@ -51,7 +51,9 @@ function Hero() {
                     <p className="text-sm text-darkGray-500 font-semibold">
                       Figma
                     </p>
-                    <p className="text-xs text-darkGray-300">Design Platform</p>
+                    <p className="text-xs text-darkGray-300/60">
+                      Design Platform
+                    </p>
                   </div>
                 </div>
 
