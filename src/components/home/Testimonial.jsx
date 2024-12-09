@@ -19,7 +19,7 @@ const testimonials = [
     text: "Another testimonial text example for demonstration. ",
     highlightedText: "Highlight this part of the text",
     endingText: " and continue with more details.",
-    name: "Jane Doe",
+    name: "Rezi Afrialdi",
     role: "UI/UX Designer",
     image: TestimonialOne,
   },
@@ -29,8 +29,8 @@ const testimonials = [
     text: "Another testimonial text example for demonstration. ",
     highlightedText: "Highlight this part of the text",
     endingText: " and continue with more details.",
-    name: "Jane Doe",
-    role: "UI/UX Designer",
+    name: "O. Riastanjung",
+    role: "Fullstack Developer",
     image: TestimonialOne,
   },
   {
@@ -39,7 +39,7 @@ const testimonials = [
     text: "Another testimonial text example for demonstration. ",
     highlightedText: "Highlight this part of the text",
     endingText: " and continue with more details.",
-    name: "Jane Doe",
+    name: "Rama Setiawan",
     role: "UI/UX Designer",
     image: TestimonialOne,
   },
@@ -49,8 +49,8 @@ const testimonials = [
     text: "Another testimonial text example for demonstration. ",
     highlightedText: "Highlight this part of the text",
     endingText: " and continue with more details.",
-    name: "Jane Doe",
-    role: "UI/UX Designer",
+    name: "Wahyu Seto Pranata",
+    role: "Graphic Designer",
     image: TestimonialOne,
   },
   {
@@ -59,8 +59,8 @@ const testimonials = [
     text: "Another testimonial text example for demonstration. ",
     highlightedText: "Highlight this part of the text",
     endingText: " and continue with more details.",
-    name: "Jane Doe",
-    role: "UI/UX Designer",
+    name: "Setografi",
+    role: "Writer",
     image: TestimonialOne,
   },
 ];
@@ -68,18 +68,20 @@ const testimonials = [
 function Testimonial() {
   return (
     <section className="w-full grid grid-flow-row mx-auto">
-      <div className="px-32 border-t border-slate-300 border-dashed">
-        <div className="border-l border-slate-300 border-dashed">
+      <div className="px-32 border-t border-lightGray-700 border-dashed">
+        <div className="border-l border-lightGray-700 border-dashed">
           <div className="grid grid-cols-2 grid-rows-3">
             {testimonials.map((testimonial) => (
               <div
                 key={testimonial.id}
-                className="group flex flex-col p-6 gap-10 border-r border-b border-slate-300 border-dashed"
+                className="group flex flex-col p-6 gap-10 border-r border-b border-lightGray-700 border-dashed"
               >
-                <h2>{testimonial.logo}</h2>
-                <p>
+                <h2 className="text-darkGray-500 font-semibold">
+                  {testimonial.logo}
+                </h2>
+                <p className="text-darkGray-500">
                   {testimonial.text}
-                  <span className="bg-slate-200/90 font-semibold">
+                  <span className="bg-lightGray-700 text-darkGray-500 font-semibold">
                     {testimonial.highlightedText}
                   </span>
                   {testimonial.endingText}
@@ -87,10 +89,12 @@ function Testimonial() {
 
                 <div className="flex flex-row justify-between">
                   <div className="flex flex-col space-y-1">
-                    <h3 className="text-lg font-semibold">
+                    <h3 className="text-lg text-darkGray-500 font-semibold">
                       {testimonial.name}
                     </h3>
-                    <p className="text-sm text-slate-500">{testimonial.role}</p>
+                    <p className="text-sm text-darkGray-300/60">
+                      {testimonial.role}
+                    </p>
                   </div>
 
                   <div>
@@ -106,7 +110,7 @@ function Testimonial() {
           </div>
         </div>
 
-        <div className="h-40 grid grid-flow-col border-x border-slate-300 border-dashed"></div>
+        <div className="h-40 grid grid-flow-col border-x border-lightGray-700 border-dashed"></div>
       </div>
     </section>
   );

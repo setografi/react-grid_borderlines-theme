@@ -3,21 +3,30 @@ import React from "react";
 function Footer() {
   return (
     <footer className="w-full mx-auto">
-      <div className="grid grid-flow-row px-32 border-t border-slate-300 border-dashed">
+      <div className="bg-lightGray-500 grid grid-flow-row px-32 border-t border-lightGray-700 border-dashed">
         <div className="grid grid-cols-4">
-          <div className="py-14 border-x border-slate-300 border-dashed">
-            <h2>Border</h2>
+          <div className="py-14 border-x border-lightGray-700 border-dashed">
+            <h2 className="text-darkGray-500">Border</h2>
           </div>
 
           <div className="flex flex-col py-14 gap-8">
             <div className="flex flex-col gap-2">
-              <h3 className="font-semibold text-sm">Company</h3>
+              <h3 className="text-sm text-darkGray-500 font-semibold">
+                Company
+              </h3>
 
               <ul className="flex flex-col text-sm gap-2">
-                <a href="">Home</a>
-                <a href="">About</a>
-                <a href="">Blog</a>
-                <a href="">Contact</a>
+                {["Home", "About", "Blog", "Contact"].map((item) => (
+                  <a
+                    href="#"
+                    key={item}
+                    className="text-sm text-darkGray-300 hover:text-lightGray-800 rounded-lg
+                 transition-colors duration-300 focus:ring-2 focus:ring-lightGray-700 
+                 focus:outline-none"
+                  >
+                    <span className="hover:underline">{item}</span>
+                  </a>
+                ))}
               </ul>
             </div>
 
@@ -25,8 +34,17 @@ function Footer() {
               <h3 className="font-semibold text-sm">Industries</h3>
 
               <ul className="flex flex-col text-sm gap-2">
-                <a href="">SaaS</a>
-                <a href="">Fintech</a>
+                {["SaaS", "Fintech"].map((item) => (
+                  <a
+                    href="#"
+                    key={item}
+                    className="text-sm text-darkGray-300 hover:text-lightGray-800 rounded-lg
+                 transition-colors duration-300 focus:ring-2 focus:ring-lightGray-700 
+                 focus:outline-none"
+                  >
+                    <span className="hover:underline">{item}</span>
+                  </a>
+                ))}
               </ul>
             </div>
 
@@ -34,23 +52,45 @@ function Footer() {
               <h3 className="font-semibold text-sm">Locations</h3>
 
               <ul className="flex flex-col text-sm gap-2">
-                <a href="">London, UK</a>
-                <a href="">Berlin, Germany</a>
-                <a href="">Bogor</a>
+                {["London, UK", "Berlin, Germany", "Bogor"].map((item) => (
+                  <a
+                    href="#"
+                    key={item}
+                    className="text-sm text-darkGray-300 hover:text-lightGray-800 rounded-lg
+                 transition-colors duration-300 focus:ring-2 focus:ring-lightGray-700 
+                 focus:outline-none"
+                  >
+                    <span className="hover:underline">{item}</span>
+                  </a>
+                ))}
               </ul>
             </div>
           </div>
 
-          <div className="flex flex-col py-14 gap-8 border-l border-slate-300 border-dashed">
+          <div className="flex flex-col py-14 gap-8 border-l border-lightGray-700 border-dashed">
             <div className="flex flex-col gap-2">
-              <h3 className="font-semibold text-sm">Services</h3>
+              <h3 className="text-sm text-darkGray-500 font-semibold">
+                Services
+              </h3>
 
               <ul className="flex flex-col text-sm gap-2">
-                <a href="">Content Marketing</a>
-                <a href="">B2B SEO</a>
-                <a href="">Development & CRO</a>
-                <a href="">Programmatic SEO</a>
-                <a href="">Data Analytics</a>
+                {[
+                  "Content Marketing",
+                  "B2B SEO",
+                  "Development & CRO",
+                  "Programmatic SEO",
+                  "Data Analytics",
+                ].map((item) => (
+                  <a
+                    href="#"
+                    key={item}
+                    className="text-sm text-darkGray-300 hover:text-lightGray-800 rounded-lg
+                 transition-colors duration-300 focus:ring-2 focus:ring-lightGray-700 
+                 focus:outline-none"
+                  >
+                    <span className="hover:underline">{item}</span>
+                  </a>
+                ))}
               </ul>
             </div>
 
@@ -58,43 +98,62 @@ function Footer() {
               <h3 className="font-semibold text-sm">Case studies</h3>
 
               <ul className="flex flex-col text-sm gap-2">
-                <a href="">Lorem ipsum dolor sit amet</a>
-                <a href="">Lorem ipsum dolor sit amet</a>
-                <a href="">Lorem ipsum dolor sit amet</a>
-                <a href="">Lorem ipsum dolor sit amet</a>
-                <a href="">Lorem ipsum dolor sit amet</a>
-                <a href="">Lorem ipsum dolor sit amet</a>
+                {["Lorem", "Ipsum", "Dolor", "Sit amet"].map((item) => (
+                  <a
+                    href="#"
+                    key={item}
+                    className="text-sm text-darkGray-300 hover:text-lightGray-800 rounded-lg
+                 transition-colors duration-300 focus:ring-2 focus:ring-lightGray-700 
+                 focus:outline-none"
+                  >
+                    <span className="hover:underline">{item}</span>
+                  </a>
+                ))}
               </ul>
             </div>
           </div>
 
-          <div className="py-14 border-x border-slate-300 border-dashed">
+          <div className="py-14 border-x border-lightGray-700 border-dashed">
             <div className="flex flex-col gap-2">
-              <h3 className="font-semibold text-sm">Knowledge</h3>
+              <h3 className="text-sm text-darkGray-500 font-semibold">
+                Knowledge
+              </h3>
 
               <ul className="flex flex-col text-sm gap-2">
-                <a href="">Content Marketing</a>
-                <a href="">B2B SEO</a>
-                <a href="">Development & CRO</a>
-                <a href="">Programmatic SEO</a>
-                <a href="">Data Analytics</a>
+                {[
+                  "Development & CRO",
+                  "Programmatic SEO",
+                  "Data Analytics",
+                  "Machine Learning",
+                  "Deep Learning",
+                ].map((item) => (
+                  <a
+                    href="#"
+                    key={item}
+                    className="text-sm text-darkGray-300 hover:text-lightGray-800 rounded-lg
+                 transition-colors duration-300 focus:ring-2 focus:ring-lightGray-700 
+                 focus:outline-none"
+                  >
+                    <span className="hover:underline">{item}</span>
+                  </a>
+                ))}
               </ul>
             </div>
           </div>
         </div>
 
-        <div className="grid grid-cols-2 border-t border-slate-300 border-dashed">
-          <div className="flex flex-col py-4 gap-2 border-l border-slate-300 border-dashed">
+        <div className="grid grid-cols-2 border-t border-lightGray-700 border-dashed">
+          <div className="flex flex-col py-4 gap-2 border-l border-lightGray-700 border-dashed">
             <h2 className="font-semibold">Stay up to date</h2>
 
-            <p className="text-sm text-slate-500">
+            <p className="text-sm text-darkGray-300/60">
               Receive Growth OpenLetter once a month. No spam, only value.
             </p>
           </div>
 
-          <div className="flex justify-center items-center border-x border-slate-300 border-dashed">
+          <div className="flex justify-center items-center border-x border-lightGray-700 border-dashed">
             <form
-              className="flex w-full border border-dashed border-slate-300 overflow-hidden bg-slate-50/30"
+              className="flex w-full border border-dashed border-lightGray-700 overflow-hidden bg-slate-50/30"
               aria-label="Omnius Newsletter"
             >
               <input
@@ -102,12 +161,12 @@ function Footer() {
                 name="Newsletter"
                 id="Newsletter"
                 placeholder="Your business email"
-                className="flex-1 px-3 py-2 text-sm text-gray-600 bg-transparent outline-none placeholder-gray-400"
+                className="flex-1 px-3 py-2 text-sm text-gray-600 bg-transparent outline-none placeholder-darkGray-300/60"
                 maxLength="256"
               />
               <button
                 type="submit"
-                className="px-3 text-sm font-semibold text-black bg-white border border-slate-300 rounded-lg hover:bg-gray-100 hover:text-gray-900 transition-all"
+                className="px-3 text-sm font-semibold text-black bg-white border border-lightGray-700 rounded-lg hover:bg-gray-100 hover:text-darkGray-500 transition-all"
               >
                 Subscribe
               </button>
@@ -115,13 +174,13 @@ function Footer() {
           </div>
         </div>
 
-        <div className="flex items-center justify-between py-4 border-t border-x border-slate-300 border-dashed">
-          <p className="text-sm text-slate-500">
+        <div className="flex items-center justify-between py-4 border-t border-x border-lightGray-700 border-dashed">
+          <p className="text-sm text-darkGray-300/60">
             © 2024 Border. All rights reserved.
           </p>
 
-          <div className="flex flex-row justify-center items-center p-1 border border-slate-300 rounded-xl">
-            <button className="bg-slate-300/70 py-1 px-3 rounded-lg">
+          <div className="flex flex-row justify-center items-center p-1 border border-lightGray-700 rounded-xl">
+            <button className="bg-lightGray-700/70 py-1 px-3 rounded-lg">
               <span className="text-sm">Language</span>
             </button>
             <button className="py-1 px-3 rounded-lg">

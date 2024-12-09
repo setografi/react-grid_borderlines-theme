@@ -1,30 +1,34 @@
 import React from "react";
-import TabOne from "../../assets/tabs-01.jpg";
+import TabOne from "../../assets/tabs-clean-code.svg";
 
 function Tabs() {
   return (
     <section className="w-full grid grid-flow-row mx-auto">
-      <div className="px-32 border-t border-slate-300 border-dashed">
-        <div className="border-x border-slate-300 border-dashed">
-          <div className="grid grid-cols-2 border border-slate-200 rounded-lg p-10 group hover:shadow-xl overflow-hidden duration-300 transition-all ">
+      <div className="px-32 border-t border-lightGray-700 border-dashed">
+        <div className="border-x border-lightGray-700 border-dashed">
+          <div className="grid grid-cols-2 border border-lightGray-700 rounded-lg p-10 group hover:shadow-xl shadow-darkGray-700 overflow-hidden duration-300 transition-all ">
             <div className="flex flex-col justify-between items-start">
               <div className="flex flex-col gap-6">
-                <h1 className="text-3xl font-semibold leading-snug">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                <h1 className="text-3xl font-semibold text-darkGray-500 leading-snug">
+                  Search Engine Optimization (SEO)
                 </h1>
-                <p>
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  Eveniet aspernatur sapiente suscipit maiores,
+
+                <p className="text-darkGray-300/60">
+                  Boost your website’s visibility on search engines with
+                  cutting-edge strategies that drive organic traffic.
                 </p>
 
-                <p>
-                  cumque aperiam nobis expedita doloremque corrupti deleniti!
-                  Aliquam, at ex in quo atque porro beatae expedita libero.
+                <p className="text-darkGray-300/60">
+                  Our expert team ensures your content ranks higher, bringing in
+                  more qualified leads to grow your business.
                 </p>
               </div>
 
-              <a href="/" className="text-cyan-500 font-semibold">
-                Explore how we do SEO {">"}
+              <a
+                href="/"
+                className="w-fit text-sm text-cyan-500 font-semibold hover:text-cyan-600 rounded-lg focus:ring-2 focus:ring-cyan-500 focus:outline-none active:text-cyan-700 transition duration-200"
+              >
+                Case Study <i class="ri-arrow-right-s-line"></i>
               </a>
             </div>
 
@@ -40,17 +44,21 @@ function Tabs() {
           </div>
 
           <div className="flex justify-center items-center mt-6 pb-24">
-            <div className="flex justify-center items-center gap-2 p-1 border border-slate-200 rounded-2xl">
-              <button className="bg-slate-200/70 px-4 py-2 rounded-xl">
-                <span className="text-sm font-semibold ">SEO</span>
+            <div className="flex justify-center items-center gap-2 p-1 border border-lightGray-700 rounded-2xl">
+              <button className="group px-4 py-2 rounded-xl bg-lightGray-600 hover:bg-lightGray-700 focus:ring-2 focus:ring-lightGray-800 focus:outline-none active:bg-lightGray-800 transition duration-300">
+                <span className="text-sm font-semibold text-darkGray-300 group-hover:text-darkGray-200 group-active:text-darkGray-100">
+                  SEO
+                </span>
               </button>
+
               <button className="px-4 py-2 rounded-xl">
-                <span className="text-sm font-semibold text-slate-500">
+                <span className="text-sm font-semibold text-darkGray-300/60">
                   Content Marketing
                 </span>
               </button>
+
               <button className="px-4 py-2 rounded-xl">
-                <span className="text-sm font-semibold text-slate-500">
+                <span className="text-sm font-semibold text-darkGray-300/60">
                   Development & CRO
                 </span>
               </button>
