@@ -5,11 +5,11 @@ function Footer() {
     <footer className="w-full mx-auto">
       <div className="grid grid-flow-row px-32 border-t border-slate-300 border-dashed">
         <div className="grid grid-cols-4">
-          <div className="h-full pt-14 border-x border-slate-300 border-dashed">
+          <div className="py-14 border-x border-slate-300 border-dashed">
             <h2>Border</h2>
           </div>
 
-          <div className="flex flex-col pt-14 gap-8">
+          <div className="flex flex-col py-14 gap-8">
             <div className="flex flex-col gap-2">
               <h3 className="font-semibold text-sm">Company</h3>
 
@@ -41,7 +41,7 @@ function Footer() {
             </div>
           </div>
 
-          <div className="flex flex-col pt-14 gap-8 border-l border-slate-300 border-dashed">
+          <div className="flex flex-col py-14 gap-8 border-l border-slate-300 border-dashed">
             <div className="flex flex-col gap-2">
               <h3 className="font-semibold text-sm">Services</h3>
 
@@ -68,7 +68,7 @@ function Footer() {
             </div>
           </div>
 
-          <div className="pt-14 border-x border-slate-300 border-dashed">
+          <div className="py-14 border-x border-slate-300 border-dashed">
             <div className="flex flex-col gap-2">
               <h3 className="font-semibold text-sm">Knowledge</h3>
 

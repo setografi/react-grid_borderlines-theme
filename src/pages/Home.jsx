@@ -10,7 +10,7 @@ import Footer from "../components/layout/Footer";
 
 function Home() {
   return (
-    <>
+    <div className="bg-lightGray-500 text-darkGray-500">
       <Header />
       <Hero />
       <Services />
@@ -19,7 +19,7 @@ function Home() {
       <Testimonial />
       <Cta />
       <Footer />
-    </>
+    </div>
   );
 }
 

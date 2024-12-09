@@ -1,4 +1,5 @@
 import React from "react";
+import "remixicon/fonts/remixicon.css";
 import "./App.css";
 
 import Home from "./pages/Home";
