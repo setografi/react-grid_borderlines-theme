@@ -49,10 +49,10 @@ function Cta() {
 
       <div className="px-32 border-t border-slate-300 border-dashed">
         <div className="h-28 grid grid-cols-4 border-x border-slate-300 border-dashed">
-          <div className="border-r border-slate-300 border-dashed"></div>
-          <div className="border-r border-slate-300 border-dashed"></div>
-          <div className="border-r border-slate-300 border-dashed"></div>
           <div></div>
+          <div className="border-l border-slate-300 border-dashed"></div>
+          <div className="border-l border-slate-300 border-dashed"></div>
+          <div className="border-l border-slate-300 border-dashed"></div>
         </div>
       </div>
     </section>
