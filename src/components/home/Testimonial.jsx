@@ -68,7 +68,7 @@ const testimonials = [
 function Testimonial() {
   return (
     <section className="w-full grid grid-flow-row mx-auto">
-      <div className="px-32 border-t border-lightGray-700 border-dashed">
+      <div className="px-8 md:px-32 border-t border-lightGray-700 border-dashed">
         <div className="border-l border-lightGray-700 border-dashed">
           <div className="grid grid-cols-2 grid-rows-3">
             {testimonials.map((testimonial) => (

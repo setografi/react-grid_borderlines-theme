@@ -2,14 +2,14 @@ import React from "react";
 
 function Header() {
   return (
-    <header className="fixed w-full mx-auto px-32 z-50">
+    <header className="fixed w-full mx-auto px-8 md:px-32 z-50">
       <div className="bg-lightGray-500 flex flex-row justify-between py-4 border-x border-lightGray-700 border-dashed">
         <div className="flex flex-row justify-center items-center">
           <a href="/">
             <span className="font-bold text-xl">Border</span>
           </a>
 
-          <nav className="ml-12 flex flex-row justify-center items-center space-x-8">
+          <nav className="hidden md:flex flex-row justify-center items-center space-x-8 ml-12">
             {["Services", "Company", "Industries", "Knowledge"].map((item) => (
               <a
                 href="#"
@@ -24,7 +24,7 @@ function Header() {
           </nav>
         </div>
 
-        <div className="flex flex-row justify-center items-center space-x-4">
+        <div className="hidden md:flex flex-row justify-center items-center space-x-4">
           <button
             className="group w-fit py-1 px-3 border border-lightGray-700 rounded-lg 
               bg-lightGray-500 hover:bg-lightGray-600 focus:ring-2 focus:ring-lightGray-700 focus:outline-none active:bg-lightGray-700 transition duration-300"
@@ -42,6 +42,10 @@ function Header() {
               Get Started
             </span>
           </button>
+        </div>
+
+        <div className="block md:hidden">
+          <i className="ri-menu-3-line"></i>
         </div>
       </div>
     </header>

@@ -3,7 +3,7 @@ import React from "react";
 function Footer() {
   return (
     <footer className="w-full mx-auto">
-      <div className="bg-lightGray-500 grid grid-flow-row px-32 border-t border-lightGray-700 border-dashed">
+      <div className="bg-lightGray-500 grid grid-flow-row px-8 md:px-32 border-t border-lightGray-700 border-dashed">
         <div className="grid grid-cols-4">
           <div className="py-14 border-x border-lightGray-700 border-dashed">
             <h2 className="text-darkGray-500">Border</h2>
