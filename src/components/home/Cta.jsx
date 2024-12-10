@@ -2,7 +2,7 @@ import React from "react";
 
 function Cta() {
   return (
-    <section className="w-full bg-lightGray-500 grid grid-flow-row mx-auto">
+    <section className="w-full grid grid-flow-row mx-auto">
       <div className="px-8 md:px-32 border-t border-lightGray-700 border-dashed">
         <div className="border-x border-lightGray-700 border-dashed">
           <div className="relative h-[450px] bg-darkGray-500 flex flex-col items-center p-5 md:p-10 rounded-xl overflow-hidden">
@@ -52,7 +52,7 @@ function Cta() {
       </div>
 
       <div className="px-8 md:px-32 border-t border-lightGray-700 border-dashed">
-        <div className="h-28 grid grid-cols-4 border-x border-lightGray-700 border-dashed">
+        <div className="h-24 md:h-28 grid grid-cols-4 border-x border-lightGray-700 border-dashed">
           <div></div>
           <div className="border-l border-lightGray-700 border-dashed"></div>
           <div className="border-l border-lightGray-700 border-dashed"></div>

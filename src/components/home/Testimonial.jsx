@@ -67,14 +67,14 @@ const testimonials = [
 
 function Testimonial() {
   return (
-    <section className="w-full bg-lightGray-500 grid grid-flow-row mx-auto">
+    <section className="w-full mx-auto">
       <div className="px-8 md:px-32 border-t border-lightGray-700 border-dashed">
         <div className="border-l border-lightGray-700 border-dashed">
           <div className="grid md:grid-cols-2 md:grid-rows-3">
             {testimonials.map((testimonial) => (
               <div
                 key={testimonial.id}
-                className="group flex flex-col p-6 gap-10 border-r border-b border-lightGray-700 border-dashed"
+                className="group flex flex-col p-5 gap-10 border-r border-b border-lightGray-700 border-dashed"
               >
                 <h2 className="text-darkGray-500 font-semibold">
                   {testimonial.logo}
@@ -111,7 +111,7 @@ function Testimonial() {
           </div>
         </div>
 
-        <div className="h-40 grid grid-flow-col border-x border-lightGray-700 border-dashed"></div>
+        <div className="h-24 md:h-40 grid grid-flow-col border-x border-lightGray-700 border-dashed"></div>
       </div>
     </section>
   );

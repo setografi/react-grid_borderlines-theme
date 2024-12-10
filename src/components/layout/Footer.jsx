@@ -2,8 +2,8 @@ import React from "react";
 
 function Footer() {
   return (
-    <footer className="w-full mx-auto">
-      <div className="bg-lightGray-500 grid grid-flow-row px-8 md:px-32 border-t border-lightGray-700 border-dashed">
+    <footer className="bg-lightGray-500 w-full mx-auto">
+      <div className="grid grid-flow-row px-8 md:px-32 border-t border-lightGray-700 border-dashed">
         <div className="grid grid-cols-2 md:grid-cols-4">
           <div className="py-10 md:py-14 border-x border-lightGray-700 border-dashed">
             <h2 className="text-darkGray-500">Border</h2>
@@ -15,12 +15,12 @@ function Footer() {
                 Company
               </h3>
 
-              <ul className="flex flex-col text-sm gap-2">
+              <ul className="flex flex-col text-xs md:text-sm gap-2">
                 {["Home", "About", "Blog", "Contact"].map((item) => (
                   <a
                     href="#"
                     key={item}
-                    className="text-sm text-darkGray-300 hover:text-lightGray-800 rounded-lg
+                    className="text-darkGray-300 text-xs md:text-sm hover:text-lightGray-800 rounded-lg
                  transition-colors duration-300 focus:ring-2 focus:ring-lightGray-700 
                  focus:outline-none"
                   >
@@ -33,12 +33,12 @@ function Footer() {
             <div className="flex flex-col gap-2">
               <h3 className="font-semibold text-sm">Industries</h3>
 
-              <ul className="flex flex-col text-sm gap-2">
+              <ul className="flex flex-col text-xs md:text-sm gap-2">
                 {["SaaS", "Fintech"].map((item) => (
                   <a
                     href="#"
                     key={item}
-                    className="text-sm text-darkGray-300 hover:text-lightGray-800 rounded-lg
+                    className="text-darkGray-300 text-xs md:text-sm hover:text-lightGray-800 rounded-lg
                  transition-colors duration-300 focus:ring-2 focus:ring-lightGray-700 
                  focus:outline-none"
                   >
@@ -51,12 +51,12 @@ function Footer() {
             <div className="flex flex-col gap-2">
               <h3 className="font-semibold text-sm">Locations</h3>
 
-              <ul className="flex flex-col text-sm gap-2">
+              <ul className="flex flex-col text-xs md:text-sm gap-2">
                 {["London, UK", "Berlin, Germany", "Bogor"].map((item) => (
                   <a
                     href="#"
                     key={item}
-                    className="text-sm text-darkGray-300 hover:text-lightGray-800 rounded-lg
+                    className="text-darkGray-300 text-xs md:text-sm hover:text-lightGray-800 rounded-lg
                  transition-colors duration-300 focus:ring-2 focus:ring-lightGray-700 
                  focus:outline-none"
                   >
@@ -73,7 +73,7 @@ function Footer() {
                 Services
               </h3>
 
-              <ul className="flex flex-col text-sm gap-2">
+              <ul className="flex flex-col text-xs md:text-sm gap-2">
                 {[
                   "Content Marketing",
                   "B2B SEO",
@@ -84,7 +84,7 @@ function Footer() {
                   <a
                     href="#"
                     key={item}
-                    className="text-sm text-darkGray-300 hover:text-lightGray-800 rounded-lg
+                    className="text-darkGray-300  text-xs md:text-sm hover:text-lightGray-800 rounded-lg
                  transition-colors duration-300 focus:ring-2 focus:ring-lightGray-700 
                  focus:outline-none"
                   >
@@ -97,12 +97,12 @@ function Footer() {
             <div className="flex flex-col gap-2">
               <h3 className="font-semibold text-sm">Case studies</h3>
 
-              <ul className="flex flex-col text-sm gap-2">
+              <ul className="flex flex-col text-xs md:text-sm gap-2">
                 {["Lorem", "Ipsum", "Dolor", "Sit amet"].map((item) => (
                   <a
                     href="#"
                     key={item}
-                    className="text-sm text-darkGray-300 hover:text-lightGray-800 rounded-lg
+                    className="text-darkGray-300  text-xs md:text-sm hover:text-lightGray-800 rounded-lg
                  transition-colors duration-300 focus:ring-2 focus:ring-lightGray-700 
                  focus:outline-none"
                   >
@@ -119,7 +119,7 @@ function Footer() {
                 Knowledge
               </h3>
 
-              <ul className="flex flex-col text-sm gap-2">
+              <ul className="flex flex-col text-xs md:text-sm gap-2">
                 {[
                   "Development & CRO",
                   "Programmatic SEO",
@@ -130,7 +130,7 @@ function Footer() {
                   <a
                     href="#"
                     key={item}
-                    className="text-sm text-darkGray-300 hover:text-lightGray-800 rounded-lg
+                    className="text-darkGray-300  text-xs md:text-sm hover:text-lightGray-800 rounded-lg
                  transition-colors duration-300 focus:ring-2 focus:ring-lightGray-700 
                  focus:outline-none"
                   >
@@ -144,9 +144,11 @@ function Footer() {
 
         <div className="grid grid-cols-2 border-t border-lightGray-700 border-dashed">
           <div className="flex flex-col py-4 gap-2 border-l border-lightGray-700 border-dashed">
-            <h2 className="font-semibold">Stay up to date</h2>
+            <h2 className="text-sm md:text-base font-semibold">
+              Stay up to date
+            </h2>
 
-            <p className="text-darkGray-300/60 text-sm">
+            <p className="text-darkGray-300/60 text-xs md:text-sm">
               Receive Growth OpenLetter once a month. No spam, only value.
             </p>
           </div>
@@ -161,7 +163,7 @@ function Footer() {
                 name="Newsletter"
                 id="Newsletter"
                 placeholder="Your business email"
-                className="flex-1 px-3 py-2 text-sm text-gray-600 bg-transparent outline-none placeholder-darkGray-300/60"
+                className="flex-1 px-2 md:px-3 py-2 text-sm text-gray-600 bg-transparent outline-none placeholder-darkGray-300/60"
                 maxLength="256"
               />
               <button
@@ -183,14 +185,14 @@ function Footer() {
           </p>
 
           <div className="flex flex-row justify-center items-center p-1 border border-lightGray-700 rounded-xl">
-            <button className="group px-2 md:px-3 py-1 rounded-lg bg-lightGray-600 hover:bg-lightGray-700 focus:ring-2 focus:ring-lightGray-800 focus:outline-none active:bg-lightGray-800 transition duration-300">
-              <span className="text-sm font-semibold text-darkGray-300 group-hover:text-darkGray-200 group-active:text-darkGray-100">
+            <button className="group bg-lightGray-600 px-2 md:px-3 py-1 rounded-lg hover:bg-lightGray-700 focus:ring-2 focus:ring-lightGray-800 focus:outline-none active:bg-lightGray-800 transition duration-300">
+              <span className="text-darkGray-300 text-xs md:text-sm font-semibold group-hover:text-darkGray-200 group-active:text-darkGray-100">
                 Language
               </span>
             </button>
 
             <button className="px-2 md:px-3 py-1 rounded-lg">
-              <span className="text-sm font-semibold text-darkGray-300/60">
+              <span className="text-darkGray-300/60 text-xs md:text-sm font-semibold">
                 Get Started
               </span>
             </button>
