@@ -3,15 +3,15 @@ import TabOne from "../../assets/tabs-clean-code.svg";
 
 function Tabs() {
   return (
-    <section className="w-full grid grid-flow-row mx-auto">
+    <section className="w-full bg-lightGray-500 grid grid-flow-row mx-auto">
       <div className="px-8 md:px-32 border-t border-lightGray-700 border-dashed">
         <div className="border-x border-lightGray-700 border-dashed">
           <div className="group grid grid-cols-1 md:grid-cols-2 p-5 md:p-10 border border-lightGray-700 rounded-lg hover:shadow-xl shadow-darkGray-700 duration-300 transition-all overflow-hidden">
             <div className="flex flex-col justify-between items-start gap-6">
               <div className="flex flex-col space-y-4 md:space-y-6">
-                <h1 className="text-darkGray-500 text-2xl md:text-3xl font-semibold leading-snug">
+                <h2 className="text-darkGray-500 text-2xl md:text-3xl font-semibold leading-snug">
                   Search Engine Optimization (SEO)
-                </h1>
+                </h2>
 
                 <p className="text-darkGray-300/60 text-sm md:text-base">
                   Boost your website’s visibility on search engines with

@@ -20,7 +20,7 @@ const sponsors = [
 
 function Logo() {
   return (
-    <section className="w-full grid grid-flow-row mx-auto">
+    <section className="w-full bg-lightGray-500 grid grid-flow-row mx-auto">
       <div className="grid md:grid-cols-[30%_1fr] px-8 md:px-32 border-b border-lightGray-700 border-dashed">
         <div className="flex justify-start items-start p-4 border-x border-lightGray-700 border-dashed">
           <p className="text-darkGray-500 text-sm md:text-base">
@@ -49,7 +49,7 @@ function Logo() {
 
       <div className="grid grid-flow-row px-8 md:px-32 border-b border-lightGray-700 border-dashed">
         <div className="border-x border-b border-lightGray-700 border-dashed">
-          <h2 className="text-darkGray-500 text-2xl md:text-4xl md:w-80 font-semibold leading-snug">
+          <h2 className="text-darkGray-500 text-2xl md:text-3xl md:w-80 font-semibold leading-snug">
             Lorem ipsum dolor sit amet.
           </h2>
         </div>

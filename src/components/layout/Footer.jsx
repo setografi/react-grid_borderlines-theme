@@ -4,12 +4,12 @@ function Footer() {
   return (
     <footer className="w-full mx-auto">
       <div className="bg-lightGray-500 grid grid-flow-row px-8 md:px-32 border-t border-lightGray-700 border-dashed">
-        <div className="grid grid-cols-4">
-          <div className="py-14 border-x border-lightGray-700 border-dashed">
+        <div className="grid grid-cols-2 md:grid-cols-4">
+          <div className="py-10 md:py-14 border-x border-lightGray-700 border-dashed">
             <h2 className="text-darkGray-500">Border</h2>
           </div>
 
-          <div className="flex flex-col py-14 gap-8">
+          <div className="flex flex-col py-10 md:py-14 gap-8">
             <div className="flex flex-col gap-2">
               <h3 className="text-sm text-darkGray-500 font-semibold">
                 Company
@@ -67,7 +67,7 @@ function Footer() {
             </div>
           </div>
 
-          <div className="flex flex-col py-14 gap-8 border-l border-lightGray-700 border-dashed">
+          <div className="flex flex-col py-10 md:py-14 gap-8 border-l border-lightGray-700 border-dashed">
             <div className="flex flex-col gap-2">
               <h3 className="text-sm text-darkGray-500 font-semibold">
                 Services
@@ -113,7 +113,7 @@ function Footer() {
             </div>
           </div>
 
-          <div className="py-14 border-x border-lightGray-700 border-dashed">
+          <div className="py-10 md:py-14 border-x border-lightGray-700 border-dashed">
             <div className="flex flex-col gap-2">
               <h3 className="text-sm text-darkGray-500 font-semibold">
                 Knowledge
@@ -146,14 +146,14 @@ function Footer() {
           <div className="flex flex-col py-4 gap-2 border-l border-lightGray-700 border-dashed">
             <h2 className="font-semibold">Stay up to date</h2>
 
-            <p className="text-sm text-darkGray-300/60">
+            <p className="text-darkGray-300/60 text-sm">
               Receive Growth OpenLetter once a month. No spam, only value.
             </p>
           </div>
 
           <div className="flex justify-center items-center border-x border-lightGray-700 border-dashed">
             <form
-              className="flex w-full border border-dashed border-lightGray-700 overflow-hidden bg-slate-50/30"
+              className="flex flex-col md:flex-row w-full border border-dashed border-lightGray-700 overflow-hidden bg-slate-50/30"
               aria-label="Newsletter"
             >
               <input
@@ -166,7 +166,7 @@ function Footer() {
               />
               <button
                 type="submit"
-                className="group w-fit py-1 px-3 border border-lightGray-700 rounded-lg 
+                className="group md:w-fit py-1 px-3 border border-lightGray-700 rounded-lg 
               bg-lightGray-500 hover:bg-lightGray-600 focus:ring-2 focus:ring-lightGray-700 focus:outline-none active:bg-lightGray-700 transition duration-300"
               >
                 <span className="text-sm text-darkGray-500 group-hover:text-darkGray-400 group-active:text-darkGray-300">
@@ -177,19 +177,19 @@ function Footer() {
           </div>
         </div>
 
-        <div className="flex items-center justify-between py-4 border-t border-x border-lightGray-700 border-dashed">
+        <div className="flex flex-col-reverse md:flex-row items-center justify-between py-4 gap-4 md:gap-0 border-t border-x border-lightGray-700 border-dashed">
           <p className="text-sm text-darkGray-300/60">
             © 2024 Border. All rights reserved.
           </p>
 
           <div className="flex flex-row justify-center items-center p-1 border border-lightGray-700 rounded-xl">
-            <button className="group px-3 py-1 rounded-lg bg-lightGray-600 hover:bg-lightGray-700 focus:ring-2 focus:ring-lightGray-800 focus:outline-none active:bg-lightGray-800 transition duration-300">
+            <button className="group px-2 md:px-3 py-1 rounded-lg bg-lightGray-600 hover:bg-lightGray-700 focus:ring-2 focus:ring-lightGray-800 focus:outline-none active:bg-lightGray-800 transition duration-300">
               <span className="text-sm font-semibold text-darkGray-300 group-hover:text-darkGray-200 group-active:text-darkGray-100">
                 Language
               </span>
             </button>
 
-            <button className="px-3 py-1 rounded-lg">
+            <button className="px-2 md:px-3 py-1 rounded-lg">
               <span className="text-sm font-semibold text-darkGray-300/60">
                 Get Started
               </span>

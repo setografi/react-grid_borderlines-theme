@@ -8,14 +8,14 @@ import Cta from "../components/home/Cta";
 
 function Home() {
   return (
-    <div className="bg-lightGray-500 text-darkGray-500">
+    <>
       <Hero />
       <Services />
       <Logo />
       <Tabs />
       <Testimonial />
       <Cta />
-    </div>
+    </>
   );
 }
 

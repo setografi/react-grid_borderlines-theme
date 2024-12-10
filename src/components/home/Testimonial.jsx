@@ -67,10 +67,10 @@ const testimonials = [
 
 function Testimonial() {
   return (
-    <section className="w-full grid grid-flow-row mx-auto">
+    <section className="w-full bg-lightGray-500 grid grid-flow-row mx-auto">
       <div className="px-8 md:px-32 border-t border-lightGray-700 border-dashed">
         <div className="border-l border-lightGray-700 border-dashed">
-          <div className="grid grid-cols-2 grid-rows-3">
+          <div className="grid md:grid-cols-2 md:grid-rows-3">
             {testimonials.map((testimonial) => (
               <div
                 key={testimonial.id}
@@ -79,9 +79,10 @@ function Testimonial() {
                 <h2 className="text-darkGray-500 font-semibold">
                   {testimonial.logo}
                 </h2>
+
                 <p className="text-darkGray-500">
                   {testimonial.text}
-                  <span className="bg-lightGray-700 text-darkGray-500 font-semibold">
+                  <span className="bg-lightGray-700 text-darkGray-500 text-sm md:text-base font-semibold">
                     {testimonial.highlightedText}
                   </span>
                   {testimonial.endingText}
@@ -89,15 +90,15 @@ function Testimonial() {
 
                 <div className="flex flex-row justify-between">
                   <div className="flex flex-col space-y-1">
-                    <h3 className="text-lg text-darkGray-500 font-semibold">
+                    <h3 className="text-darkGray-500 text-base md:text-lg font-semibold">
                       {testimonial.name}
                     </h3>
-                    <p className="text-sm text-darkGray-300/60">
+                    <p className="text-darkGray-300/60 text-xs md:text-sm">
                       {testimonial.role}
                     </p>
                   </div>
 
-                  <div className="w-12 h-12">
+                  <div className="w-8 md:w-12 h-8 md:h-12">
                     <img
                       src={testimonial.image}
                       alt={`Testimonial from ${testimonial.name}`}

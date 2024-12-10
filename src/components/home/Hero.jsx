@@ -5,7 +5,7 @@ import FigmaIcon from "../../assets/figma.svg";
 
 function Hero() {
   return (
-    <section className="w-full grid grid-flow-row mx-auto">
+    <section className="w-full bg-lightGray-500 grid grid-flow-row mx-auto">
       <div className="px-8 md:px-32 border-b border-lightGray-700 border-dashed">
         <div className="h-32 md:h-40 border-x border-lightGray-700 border-dashed"></div>
       </div>
