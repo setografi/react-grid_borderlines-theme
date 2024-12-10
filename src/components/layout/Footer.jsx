@@ -154,7 +154,7 @@ function Footer() {
           <div className="flex justify-center items-center border-x border-lightGray-700 border-dashed">
             <form
               className="flex w-full border border-dashed border-lightGray-700 overflow-hidden bg-slate-50/30"
-              aria-label="Omnius Newsletter"
+              aria-label="Newsletter"
             >
               <input
                 type="email"
@@ -166,9 +166,12 @@ function Footer() {
               />
               <button
                 type="submit"
-                className="px-3 text-sm font-semibold text-black bg-white border border-lightGray-700 rounded-lg hover:bg-gray-100 hover:text-darkGray-500 transition-all"
+                className="group w-fit py-1 px-3 border border-lightGray-700 rounded-lg 
+              bg-lightGray-500 hover:bg-lightGray-600 focus:ring-2 focus:ring-lightGray-700 focus:outline-none active:bg-lightGray-700 transition duration-300"
               >
-                Subscribe
+                <span className="text-sm text-darkGray-500 group-hover:text-darkGray-400 group-active:text-darkGray-300">
+                  Subscribe
+                </span>
               </button>
             </form>
           </div>
@@ -180,11 +183,16 @@ function Footer() {
           </p>
 
           <div className="flex flex-row justify-center items-center p-1 border border-lightGray-700 rounded-xl">
-            <button className="bg-lightGray-700/70 py-1 px-3 rounded-lg">
-              <span className="text-sm">Language</span>
+            <button className="group px-3 py-1 rounded-lg bg-lightGray-600 hover:bg-lightGray-700 focus:ring-2 focus:ring-lightGray-800 focus:outline-none active:bg-lightGray-800 transition duration-300">
+              <span className="text-sm font-semibold text-darkGray-300 group-hover:text-darkGray-200 group-active:text-darkGray-100">
+                Language
+              </span>
             </button>
-            <button className="py-1 px-3 rounded-lg">
-              <span className="text-sm">Get Started</span>
+
+            <button className="px-3 py-1 rounded-lg">
+              <span className="text-sm font-semibold text-darkGray-300/60">
+                Get Started
+              </span>
             </button>
           </div>
         </div>

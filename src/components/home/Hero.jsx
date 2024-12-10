@@ -61,7 +61,7 @@ function Hero() {
                   href="/"
                   className="w-fit text-sm text-cyan-500 font-semibold hover:text-cyan-600 rounded-lg focus:ring-2 focus:ring-cyan-500 focus:outline-none active:text-cyan-700 transition duration-200"
                 >
-                  Case Study <i class="ri-arrow-right-s-line"></i>
+                  Case Study <i className="ri-arrow-right-s-line"></i>
                 </a>
               </div>
             </div>
@@ -76,7 +76,7 @@ function Hero() {
               bg-lightGray-500 hover:bg-lightGray-600 focus:ring-2 focus:ring-lightGray-700 focus:outline-none active:bg-lightGray-700 transition duration-300"
               >
                 <span className="text-sm text-darkGray-500 group-hover:text-darkGray-400 group-active:text-darkGray-300">
-                  <i class="ri-arrow-left-s-line"></i>
+                  <i className="ri-arrow-left-s-line"></i>
                 </span>
               </button>
 
@@ -85,7 +85,7 @@ function Hero() {
               bg-lightGray-500 hover:bg-lightGray-600 focus:ring-2 focus:ring-lightGray-700 focus:outline-none active:bg-lightGray-700 transition duration-300"
               >
                 <span className="text-sm text-darkGray-500 group-hover:text-darkGray-400 group-active:text-darkGray-300">
-                  <i class="ri-arrow-right-s-line"></i>
+                  <i className="ri-arrow-right-s-line"></i>
                 </span>
               </button>
             </div>

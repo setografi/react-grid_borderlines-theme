@@ -1,5 +1,4 @@
 import React from "react";
-import CtaIcon from "../../assets/react.svg";
 
 function Cta() {
   return (
@@ -9,13 +8,18 @@ function Cta() {
           <div className="relative h-[450px] bg-darkGray-500 flex flex-col items-center p-16 rounded-xl overflow-hidden">
             <div className="flex flex-col items-center space-y-4">
               <div className="w-14 h-14">
-                <img
+                {/* <img
                   width={1080}
                   height={1080}
                   src={CtaIcon}
                   alt="Cta Animation"
                   className="w-full h-full object-cover"
-                />
+                /> */}
+                <a href="/">
+                  <span className="text-xl text-lightGray-500 font-bold">
+                    Border
+                  </span>
+                </a>
               </div>
 
               <h1 className="text-4xl text-lightGray-500 font-semibold">

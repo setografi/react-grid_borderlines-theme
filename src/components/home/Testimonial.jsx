@@ -1,5 +1,5 @@
 import React from "react";
-import TestimonialOne from "../../assets/react.svg";
+import TestimonialUser from "../../assets/testimonial-user.svg";
 
 const testimonials = [
   {
@@ -11,7 +11,7 @@ const testimonials = [
       ", quidem esse perspiciatis repudiandae ea dicta error suscipit!",
     name: "Ervan Kurniawan",
     role: "Frontend Web Developer",
-    image: TestimonialOne,
+    image: TestimonialUser,
   },
   {
     id: 2,
@@ -21,7 +21,7 @@ const testimonials = [
     endingText: " and continue with more details.",
     name: "Rezi Afrialdi",
     role: "UI/UX Designer",
-    image: TestimonialOne,
+    image: TestimonialUser,
   },
   {
     id: 3,
@@ -31,7 +31,7 @@ const testimonials = [
     endingText: " and continue with more details.",
     name: "O. Riastanjung",
     role: "Fullstack Developer",
-    image: TestimonialOne,
+    image: TestimonialUser,
   },
   {
     id: 4,
@@ -41,7 +41,7 @@ const testimonials = [
     endingText: " and continue with more details.",
     name: "Rama Setiawan",
     role: "UI/UX Designer",
-    image: TestimonialOne,
+    image: TestimonialUser,
   },
   {
     id: 5,
@@ -51,7 +51,7 @@ const testimonials = [
     endingText: " and continue with more details.",
     name: "Wahyu Seto Pranata",
     role: "Graphic Designer",
-    image: TestimonialOne,
+    image: TestimonialUser,
   },
   {
     id: 6,
@@ -61,7 +61,7 @@ const testimonials = [
     endingText: " and continue with more details.",
     name: "Setografi",
     role: "Writer",
-    image: TestimonialOne,
+    image: TestimonialUser,
   },
 ];
 
@@ -97,7 +97,7 @@ function Testimonial() {
                     </p>
                   </div>
 
-                  <div>
+                  <div className="w-12 h-12">
                     <img
                       src={testimonial.image}
                       alt={`Testimonial from ${testimonial.name}`}

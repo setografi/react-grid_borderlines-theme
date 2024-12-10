@@ -28,7 +28,7 @@ function Tabs() {
                 href="/"
                 className="w-fit text-sm text-cyan-500 font-semibold hover:text-cyan-600 rounded-lg focus:ring-2 focus:ring-cyan-500 focus:outline-none active:text-cyan-700 transition duration-200"
               >
-                Case Study <i class="ri-arrow-right-s-line"></i>
+                Case Study <i className="ri-arrow-right-s-line"></i>
               </a>
             </div>
 
