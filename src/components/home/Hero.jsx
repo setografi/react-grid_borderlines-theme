@@ -6,11 +6,11 @@ import FigmaIcon from "../../assets/figma.svg";
 function Hero() {
   return (
     <section className="w-full grid grid-flow-row mx-auto">
-      <div className="px-8 md:px-32 border-b border-lightGray-700 border-dashed">
-        <div className="h-32 md:h-40 border-x border-lightGray-700 border-dashed"></div>
+      <div className="px-8 md:px-16 lg:px-32 border-b border-lightGray-700 border-dashed">
+        <div className="h-32 md:h-36 lg:h-40 border-x border-lightGray-700 border-dashed"></div>
       </div>
 
-      <div className="grid grid-flow-row md:grid-flow-col px-8 md:px-32">
+      <div className="grid grid-flow-row md:grid-flow-col px-8 md:px-16 lg:px-32">
         <div className="py-1 border-x border-lightGray-700 border-dashed">
           <h1 className="text-darkGray-500 text-2xl md:text-3xl font-semibold leading-snug">
             Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quam,
@@ -21,9 +21,9 @@ function Hero() {
         <div className="md:w-72 border-r border-lightGray-700 border-dashed"></div>
       </div>
 
-      <div className="px-8 md:px-32 border-t border-lightGray-700 border-dashed">
+      <div className="px-8 md:px-16 lg:px-32 border-t border-lightGray-700 border-dashed">
         <div className="pt-8 md:pt-32 pb-24 md:pb-6 border-x border-lightGray-700 border-dashed">
-          <div className="flex flex-col md:flex-row md:justify-center p-5 md:p-10 gap-6 md:gap-0 border border-lightGray-700 rounded-lg">
+          <div className="flex flex-col lg:flex-row md:justify-center p-5 md:p-10 gap-6 lg:gap-0 border border-lightGray-700 rounded-lg">
             <div className="flex flex-col gap-6 md:gap-8">
               <button className="group w-fit bg-lightGray-600 py-1 px-2 md:px-3 rounded-lg hover:bg-lightGray-700 focus:ring-2 focus:ring-lightGray-800 focus:outline-none active:bg-lightGray-800 transition duration-300">
                 <span className="text-darkGray-300 text-xs md:text-sm font-semibold group-hover:text-darkGray-200 group-active:text-darkGray-100">
@@ -68,7 +68,7 @@ function Hero() {
               <ChartLine />
             </div>
 
-            <div className="flex flex-row md:justify-center items-end md:pl-8 gap-2">
+            <div className="flex flex-row lg:justify-center items-end lg:pl-8 gap-2">
               <button
                 className="group w-fit py-1 px-3 border border-lightGray-700 rounded-lg 
               bg-lightGray-500 hover:bg-lightGray-600 focus:ring-2 focus:ring-lightGray-700 focus:outline-none active:bg-lightGray-700 transition duration-300"

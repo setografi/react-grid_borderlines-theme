@@ -68,7 +68,7 @@ const testimonials = [
 function Testimonial() {
   return (
     <section className="w-full mx-auto">
-      <div className="px-8 md:px-32 border-t border-lightGray-700 border-dashed">
+      <div className="px-8 md:px-16 lg:px-32 border-t border-lightGray-700 border-dashed">
         <div className="border-l border-lightGray-700 border-dashed">
           <div className="grid md:grid-cols-2 md:grid-rows-3">
             {testimonials.map((testimonial) => (
@@ -88,7 +88,7 @@ function Testimonial() {
                   {testimonial.endingText}
                 </p>
 
-                <div className="flex flex-row justify-between">
+                <div className="flex flex-row justify-between items-center">
                   <div className="flex flex-col space-y-1">
                     <h3 className="text-darkGray-500 text-base md:text-lg font-semibold">
                       {testimonial.name}
@@ -98,7 +98,7 @@ function Testimonial() {
                     </p>
                   </div>
 
-                  <div className="w-8 md:w-12 h-8 md:h-12">
+                  <div className="w-8 h-8 md:w-10 md:h-10 lg:w-12 lg:h-12">
                     <img
                       src={testimonial.image}
                       alt={`Testimonial from ${testimonial.name}`}

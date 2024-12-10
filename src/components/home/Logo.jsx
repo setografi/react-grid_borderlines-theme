@@ -21,7 +21,7 @@ const sponsors = [
 function Logo() {
   return (
     <section className="w-full grid grid-flow-row mx-auto">
-      <div className="grid md:grid-cols-[30%_1fr] px-8 md:px-32 border-b border-lightGray-700 border-dashed">
+      <div className="grid lg:grid-cols-[30%_1fr] px-8 md:px-16 lg:px-32 border-b border-lightGray-700 border-dashed">
         <div className="flex justify-start items-start p-4 border-x border-lightGray-700 border-dashed">
           <p className="text-darkGray-500 text-sm md:text-base">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex libero
@@ -29,7 +29,7 @@ function Logo() {
           </p>
         </div>
 
-        <div className="grid grid-cols-2 md:grid-cols-5 md:grid-rows-3 p-4 md:p-6 gap-4 md:gap-8 border-x md:border-r border-lightGray-700 border-dashed">
+        <div className="grid grid-cols-2 md:grid-cols-5 md:grid-rows-3 p-4 md:p-6 gap-4 md:gap-8 md:border-t border-x lg:border-l-0 border-lightGray-700 border-dashed">
           {sponsors.map((sponsor, index) => (
             <div
               key={index}
@@ -43,11 +43,11 @@ function Logo() {
         </div>
       </div>
 
-      <div className="h-24 md:h-40 grid grid-flow-col px-8 md:px-32 border-b border-lightGray-700 border-dashed">
+      <div className="h-24 md:h-40 grid grid-flow-col px-8 md:px-16 lg:px-32 border-b border-lightGray-700 border-dashed">
         <div className="border-x border-lightGray-700 border-dashed"></div>
       </div>
 
-      <div className="grid grid-flow-row px-8 md:px-32 border-b border-lightGray-700 border-dashed">
+      <div className="grid grid-flow-row px-8 md:px-16 lg:px-32 border-b border-lightGray-700 border-dashed">
         <div className="border-x border-b border-lightGray-700 border-dashed">
           <h2 className="text-darkGray-500 text-2xl md:text-3xl md:w-80 font-semibold leading-snug">
             Lorem ipsum dolor sit amet.

@@ -4,11 +4,11 @@ import TabOne from "../../assets/tabs-clean-code.svg";
 function Tabs() {
   return (
     <section className="w-full mx-auto">
-      <div className="px-8 md:px-32 border-t border-lightGray-700 border-dashed">
+      <div className="px-8 md:px-16 lg:px-32 border-t border-lightGray-700 border-dashed">
         <div className="border-x border-lightGray-700 border-dashed">
-          <div className="group grid grid-cols-1 md:grid-cols-2 p-5 md:p-10 border border-lightGray-700 rounded-lg hover:shadow-xl shadow-darkGray-700 duration-300 transition-all overflow-hidden">
-            <div className="flex flex-col justify-center md:justify-between items-start gap-6 md:gap-0">
-              <div className="flex flex-col space-y-4 md:space-y-6">
+          <div className="group grid grid-cols-1 lg:grid-cols-2 p-5 md:p-10 border border-lightGray-700 rounded-lg hover:shadow-xl shadow-darkGray-700 duration-300 transition-all overflow-hidden">
+            <div className="flex flex-col justify-center lg:justify-between items-start gap-6 md:gap-8 lg:gap-0">
+              <div className="flex flex-col space-y-4 lg:space-y-6">
                 <h2 className="text-darkGray-500 text-2xl md:text-3xl font-semibold leading-snug">
                   Search Engine Optimization (SEO)
                 </h2>
@@ -32,7 +32,7 @@ function Tabs() {
               </a>
             </div>
 
-            <div className="w-48 h-48 lg:w-96 lg:h-96 justify-self-center md:justify-self-end">
+            <div className="w-48 h-48 md:w-80 md:h-80 lg:w-96 lg:h-96 justify-self-center md:justify-self-start lg:justify-self-end">
               <img
                 width={1080}
                 height={1080}

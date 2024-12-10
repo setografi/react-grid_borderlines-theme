@@ -3,13 +3,13 @@ import React from "react";
 function Footer() {
   return (
     <footer className="bg-lightGray-500 w-full mx-auto">
-      <div className="grid grid-flow-row px-8 md:px-32 border-t border-lightGray-700 border-dashed">
+      <div className="grid grid-flow-row px-8 md:px-16 lg:px-32 border-t border-lightGray-700 border-dashed">
         <div className="grid grid-cols-2 md:grid-cols-4">
           <div className="py-10 md:py-14 border-x border-lightGray-700 border-dashed">
             <h2 className="text-darkGray-500">Border</h2>
           </div>
 
-          <div className="flex flex-col py-10 md:py-14 gap-8">
+          <div className="flex flex-col py-10 md:py-14 gap-8 border-r md:border-r-0 border-lightGray-700 border-dashed">
             <div className="flex flex-col gap-2">
               <h3 className="text-sm text-darkGray-500 font-semibold">
                 Company
@@ -67,7 +67,7 @@ function Footer() {
             </div>
           </div>
 
-          <div className="flex flex-col py-10 md:py-14 gap-8 border-l border-lightGray-700 border-dashed">
+          <div className="flex flex-col py-10 md:py-14 gap-8 border-l border-t md:border-t-0 border-lightGray-700 border-dashed">
             <div className="flex flex-col gap-2">
               <h3 className="text-sm text-darkGray-500 font-semibold">
                 Services
@@ -113,7 +113,7 @@ function Footer() {
             </div>
           </div>
 
-          <div className="py-10 md:py-14 border-x border-lightGray-700 border-dashed">
+          <div className="py-10 md:py-14 border-x border-t md:border-t-0 border-lightGray-700 border-dashed">
             <div className="flex flex-col gap-2">
               <h3 className="text-sm text-darkGray-500 font-semibold">
                 Knowledge

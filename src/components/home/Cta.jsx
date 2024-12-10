@@ -3,7 +3,7 @@ import React from "react";
 function Cta() {
   return (
     <section className="w-full grid grid-flow-row mx-auto">
-      <div className="px-8 md:px-32 border-t border-lightGray-700 border-dashed">
+      <div className="px-8 md:px-16 lg:px-32 border-t border-lightGray-700 border-dashed">
         <div className="border-x border-lightGray-700 border-dashed">
           <div className="relative h-[450px] bg-darkGray-500 flex flex-col items-center p-5 md:p-10 rounded-xl overflow-hidden">
             <div className="flex flex-col items-center space-y-4">
@@ -35,7 +35,7 @@ function Cta() {
             </button>
 
             <div
-              className="absolute -bottom-6 md:-bottom-14 flex justify-between"
+              className="absolute -bottom-6 md:-bottom-8 lg:-bottom-14 flex justify-between"
               style={{ fontSize: "calc(1rem + 10vw)" }}
             >
               {"Border Logo".split("").map((letter, index) => (
@@ -51,8 +51,8 @@ function Cta() {
         </div>
       </div>
 
-      <div className="px-8 md:px-32 border-t border-lightGray-700 border-dashed">
-        <div className="h-24 md:h-28 grid grid-cols-4 border-x border-lightGray-700 border-dashed">
+      <div className="px-8 md:px-16 lg:px-32 border-t border-lightGray-700 border-dashed">
+        <div className="h-24 md:h-28 grid grid-cols-2 md:grid-cols-4 border-x border-lightGray-700 border-dashed">
           <div></div>
           <div className="border-l border-lightGray-700 border-dashed"></div>
           <div className="border-l border-lightGray-700 border-dashed"></div>
