@@ -181,7 +181,7 @@ function Footer() {
 
         <div className="flex flex-col-reverse md:flex-row items-center justify-between py-4 gap-4 md:gap-0 border-t border-x border-lightGray-700 border-dashed">
           <p className="text-sm text-darkGray-300/60">
-            © 2024 Border. All rights reserved.
+            © 2024 Border | Setografi. All rights reserved.
           </p>
 
           <div className="flex flex-row justify-center items-center p-1 border border-lightGray-700 rounded-xl">
