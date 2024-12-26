@@ -7,7 +7,7 @@ const tabsData = [
       "Our expert team ensures your content ranks higher, bringing in more qualified leads to grow your business.",
     ],
     buttonText: "Case Study",
-    image: "./src/assets/tabs-clean-code.svg",
+    image: "/src/assets/tabs-clean-code.svg",
     buttonTabs: "SEO",
   },
   {
@@ -18,7 +18,7 @@ const tabsData = [
       "From blog posts to videos, our strategies ensure maximum reach and lasting impact.",
     ],
     buttonText: "Learn More",
-    image: "./src/assets/tabs-clean-code.svg",
+    image: "/src/assets/tabs-clean-code.svg",
     buttonTabs: "Content Marketing",
   },
   {
@@ -29,7 +29,7 @@ const tabsData = [
       "Increase conversions and deliver seamless user experiences that drive results.",
     ],
     buttonText: "View Projects",
-    image: "./src/assets/tabs-clean-code.svg",
+    image: "/src/assets/tabs-clean-code.svg",
     buttonTabs: "Development & CRO",
   },
 ];
