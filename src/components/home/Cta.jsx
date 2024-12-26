@@ -1,4 +1,5 @@
 import React from "react";
+import Button from "../common/Button";
 
 function Cta() {
   return (
@@ -25,14 +26,7 @@ function Cta() {
               </p>
             </div>
 
-            <button
-              className="group w-fit bg-lightGray-500 px-4 py-2 mt-8 border border-lightGray-700 rounded-lg 
-               hover:bg-lightGray-600 focus:ring-2 focus:ring-lightGray-700 focus:outline-none active:bg-lightGray-700 transition duration-300"
-            >
-              <span className="text-sm text-darkGray-500 group-hover:text-darkGray-400 group-active:text-darkGray-300">
-                Get starterd
-              </span>
-            </button>
+            <Button isBlack> Get starterd</Button>
 
             <div
               className="absolute -bottom-6 md:-bottom-8 lg:-bottom-14 flex justify-between"
