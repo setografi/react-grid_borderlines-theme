@@ -15,7 +15,7 @@ const sponsors = [
   "Sponsor 12",
   "Sponsor 13",
   "Sponsor 14",
-  "Sponsor 15",
+  "SORE Pixel Crafters",
 ];
 
 function Logo() {
